@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        let arr = ['melon', 'apple', 'orange', 'grape', 'mango'];
+
+        let result = arr.filter((a) => 
+        a.includes('o'))
+        .map((a,b) => 
+        `o가 들어간 과일중 ${a}은 ${b+1}번째 입니다.`);
+        console.log(result);
+
+
+    </script>
+    
+</body>
+</html>
